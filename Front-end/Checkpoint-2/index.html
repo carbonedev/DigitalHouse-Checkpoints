@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIRFRICA</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+    <!--BANNER SUPERIOR-->
+    <header>
+        
+        <img src="https://1757140519.rsc.cdn77.org/blog/wp-content/uploads/sites/6/2020/09/travel.png" alt="">
+        <h1>Bem Vindo a AIRFRICA</h1>
+
+    </header>
+
+
+
+    <!--MENU LATERAL-->
+    <aside>
+        <nav>
+
+            <h2>Cadastro de Clientes</h2>
+          
+            <form>
+
+              <fieldset>
+
+                <legend>Dados Pessoais</legend>
+
+                       
+                    <label for="name">Nome</label>
+                    <input class="cadastro" type="text" id="name" nome="name" placeholder="Digite o seu nome">
+                    
+            
+        
+                    <label for="email">E-mail</label>
+                    <input class="cadastro" type="text" id="email" nome="email"placeholder="seuemail@email.com">
+                    
+
+        
+                    <label for="phone">Telefone</label>
+                    <input class="cadastro" type="text" id="phone" nome="phone" placeholder="(XX) XXXXX-XXXX">
+                    
+        
+        
+                    <label for="birthDate">Nascimento</label>
+                    <input class="birth" type="date" id="birthDate" nome="birthDate">
+                    
+
+
+                   <div class="idade">
+                    
+                        <div>
+                            <input type="radio" name="age" id="age">
+                            <label for="age">Maior de idade</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="age" id="age">
+                            <label for="age">Menor de idade</label>
+                        </div>
+
+                   </div>
+                    
+                    
+        
+                    <label for="CPF">CPF</label>
+                    <input class="cadastro" type="number" id="CPF" nome="CPF" placeholder="XXX.XXX.XXX-XX">
+                    
+        
+        
+                    <label for="password">Senha</label>
+                    <input class="cadastro" type="password" maxlength="11" id="password" nome="password" placeholder="************" >
+                   
+        
+        
+                    <label for="passwordConfirm">Repita sua Senha</label>
+                    <input class="cadastro" type="password" maxlength="11" id="passwordConfirm" nome="passwordConfirm" placeholder="************">
+                   
+
+              </fieldset>
+
+
+              <fieldset> 
+
+                <legend>Endereço</legend>
+
+        
+                    <label for="Cep">CEP</label>
+                    <input class="cadastro" type="number" id="Cep" nome="Cep" placeholder="XXXXX-XXX">
+                    
+
+        
+                    <label for="street">Logradouro</label>
+                    <input class="cadastro" type="text" id="street" nome="street" placeholder="Rua/Av/Praça/">
+
+                    
+
+        
+                    <label for="number">Numero</label>
+                    <input class="cadastro" type="text" id="number" nome="number" placeholder="XXXXX">
+                                        
+
+        
+                    <label for="district">Bairro</label>
+                    <input class="cadastro" type="text" id="district" nome="district" placeholder="Vila/Jardim">
+
+                    
+        
+                    <label for="city">Cidade</label>
+                    <input class="cadastro" type="search" list="citys" name="city" id="city">
+                    <datalist id="citys">
+        
+                        <option value="Santo André">                    
+                        <option value="São Bernardo">
+                        <option value="São Caetano">
+                        <option value="Diadema">
+                        <option value="Mauá">
+                        <option value="Ribeirão Pires">
+                        
+                    </datalist>
+                   
+
+                    <label for="state">Estado</label>
+                    <select name="state" id="state">
+                        <optgroup label="Sudeste">
+                        <option value="1">São Paulo</option>
+                        <option value="2">Rio de Janeiro</option>
+                        <option value="3">Minas Gerais</option>
+                        <option value="4">Espirito Santo</option>
+                        </optgroup>
+        
+                        <optgroup label="Sul">
+                        <option value="1">Paraná</option>
+                        <option value="2">Santa Catarina</option>
+                        <option value="3">Rio Grande do Sul</option>
+                        </optgroup>
+                    </select>
+
+
+            </fieldset> 
+
+
+
+            <fieldset>
+
+                <legend>Interesses na Africa</legend>
+
+                
+                <section class="interesses">
+
+
+                    
+
+                    
+
+                        <input class="checkbox" type="checkbox" id="interest">
+                        <label for="interest">Turismo</label>
+                    
+
+
+                        <input class="checkbox" type="checkbox" id="interest">
+                        <label for="interest">Residência</label>
+                    
+
+
+                        <input class="checkbox" type="checkbox" id="interest">
+                        <label for="interest">Estudos</label>
+    
+
+
+                        <input type="checkbox" name="point" id="point">
+                        <label for="point">Safari</label>
+                    
+
+
+                        <input type="checkbox" name="point" id="point">
+                        <label for="point">Paisagens</label>
+                    
+
+
+                        <input class="radio" type="checkbox" name="point" id="point">
+                        <label for="point">Cultura e Costumes</label>
+
+
+                </section>
+                                       
+                    
+        
+        
+                    <label for="comments">Comentários/Observações</label>
+                    <textarea name="comments" id="comments" ></textarea>
+                    
+        
+
+            </fieldset>  
+                
+
+                <div class="caixaBotoes">
+        
+                    <button class="enviar" type="submit">Cadastrar</button>
+                    <button class="limpar" type="reset">Limpar</button>
+        
+                </div>
+        
+            </form>
+    
+
+        </nav>
+    </aside>
+
+
+
+
+    <!--CONTEÚDO PRINCIPAL-->
+    <main>
+
+
+        <section>
+
+            <div class="foto-africa">
+
+                <section><img src="https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80" alt=""></section>
+                <p>Lorem, ipsum dolor.</p>
+
+            </div>
+
+        </section>
+
+
+        <section class="intro">
+            <h2>AFRICA</h2>
+
+            <p>
+                Se o turismo na África para você é somente fazer safári pelas savanas e se os países africanos na sua são todos pobres e sem atrativos, saiba que você tem muito a descobrir sobre a África. Em seus mais de 30 milhões de km², o continente conta com uma grande diversidade de paisagens, etnias, cultura e costumes, além da situação econômica.Infelizmente, a questão econômica ainda é um grande problema no continente que é o 3º mais extenso do mundo e o 2º mais populoso. Dos 30 países considerados mais pobres do mundo, há 21 da África que, hoje, tem 54 países independentes.Já em termos turísticos, é claro que os safáris são bem famosos, afinal são atrativos encontrados em vários países da África e que atraem viajantes de todo o mundo, mas o continente tem muito mais a oferecer aos viajantes. São lindas paisagens, interação com a natureza selvagem, ecoturismo, costumes culturais, cidades cosmopolitas e cheias de arranha céus e lugares diferentes que você nem pode imaginar.
+            </p>
+
+        </section>
+            
+    </main>
+
+
+
+</body>
+</html>
