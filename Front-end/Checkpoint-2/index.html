@@ -35,22 +35,22 @@
 
                        
                     <label for="name">Nome</label>
-                    <input class="cadastro" type="text" id="name" nome="name" placeholder="Digite o seu nome">
+                    <input class="input-style" type="text" id="name" nome="name" placeholder="Digite o seu nome">
                     
             
         
                     <label for="email">E-mail</label>
-                    <input class="cadastro" type="text" id="email" nome="email"placeholder="seuemail@email.com">
+                    <input class="input-style" type="text" id="email" nome="email"placeholder="seuemail@email.com">
                     
 
         
                     <label for="phone">Telefone</label>
-                    <input class="cadastro" type="text" id="phone" nome="phone" placeholder="(XX) XXXXX-XXXX">
+                    <input class="input-style" type="text" id="phone" nome="phone" placeholder="(XX) XXXXX-XXXX">
                     
         
         
                     <label for="birthDate">Nascimento</label>
-                    <input class="birth" type="date" id="birthDate" nome="birthDate">
+                    <input class="input-style" type="date" id="birthDate" nome="birthDate">
                     
 
 
@@ -71,17 +71,17 @@
                     
         
                     <label for="CPF">CPF</label>
-                    <input class="cadastro" type="number" id="CPF" nome="CPF" placeholder="XXX.XXX.XXX-XX">
+                    <input class="input-style" type="number" id="CPF" nome="CPF" placeholder="XXX.XXX.XXX-XX">
                     
         
         
                     <label for="password">Senha</label>
-                    <input class="cadastro" type="password" maxlength="11" id="password" nome="password" placeholder="************" >
+                    <input class="input-style" type="password" maxlength="11" id="password" nome="password" placeholder="************" >
                    
         
         
                     <label for="passwordConfirm">Repita sua Senha</label>
-                    <input class="cadastro" type="password" maxlength="11" id="passwordConfirm" nome="passwordConfirm" placeholder="************">
+                    <input class="input-style" type="password" maxlength="11" id="passwordConfirm" nome="passwordConfirm" placeholder="************">
                    
 
               </fieldset>
@@ -93,28 +93,28 @@
 
         
                     <label for="Cep">CEP</label>
-                    <input class="cadastro" type="number" id="Cep" nome="Cep" placeholder="XXXXX-XXX">
+                    <input class="input-style" type="number" id="Cep" nome="Cep" placeholder="XXXXX-XXX">
                     
 
         
                     <label for="street">Logradouro</label>
-                    <input class="cadastro" type="text" id="street" nome="street" placeholder="Rua/Av/Praça/">
+                    <input class="input-style" type="text" id="street" nome="street" placeholder="Rua/Av/Praça/">
 
                     
 
         
                     <label for="number">Numero</label>
-                    <input class="cadastro" type="text" id="number" nome="number" placeholder="XXXXX">
+                    <input class="input-style" type="text" id="number" nome="number" placeholder="XXXXX">
                                         
 
         
                     <label for="district">Bairro</label>
-                    <input class="cadastro" type="text" id="district" nome="district" placeholder="Vila/Jardim">
+                    <input class="input-style" type="text" id="district" nome="district" placeholder="Vila/Jardim">
 
                     
         
                     <label for="city">Cidade</label>
-                    <input class="cadastro" type="search" list="citys" name="city" id="city">
+                    <input class="input-style" type="search" list="citys" name="city" id="city">
                     <datalist id="citys">
         
                         <option value="Santo André">                    
@@ -128,7 +128,7 @@
                    
 
                     <label for="state">Estado</label>
-                    <select name="state" id="state">
+                    <select class="input-style" name="state" id="state">
                         <optgroup label="Sudeste">
                         <option value="1">São Paulo</option>
                         <option value="2">Rio de Janeiro</option>
@@ -153,40 +153,57 @@
                 <legend>Interesses na Africa</legend>
 
                 
-                <section class="interesses">
-
-
-                    
+                    <section>
 
                     
+                
+                        <div>
+                            <input class="checkbox" type="checkbox" id="turismo">
+                            <label for="turismo">Turismo</label>
 
-                        <input class="checkbox" type="checkbox" id="interest">
-                        <label for="interest">Turismo</label>
+                        </div>
+
+                        
                     
+                        <div>
 
+                            <input class="checkbox" type="checkbox" id="residencia">
+                            <label for="residencia">Residência</label>
 
-                        <input class="checkbox" type="checkbox" id="interest">
-                        <label for="interest">Residência</label>
+                        </div>
+                        
+
+                        <div>
+
+                            <input class="checkbox" type="checkbox" id="estudos">
+                            <label for="estudos">Estudos</label>
+
+                        </div>
+                        
                     
-
-
-                        <input class="checkbox" type="checkbox" id="interest">
-                        <label for="interest">Estudos</label>
-    
-
+                        <div>
 
                         <input type="checkbox" name="point" id="point">
                         <label for="point">Safari</label>
-                    
+
+                        </div>
 
 
-                        <input type="checkbox" name="point" id="point">
-                        <label for="point">Paisagens</label>
-                    
+                        <div>
 
+                            <input type="checkbox" name="paisagens" id="paisagens">
+                            <label for="paisagens">Paisagens</label>
 
-                        <input class="radio" type="checkbox" name="point" id="point">
-                        <label for="point">Cultura e Costumes</label>
+                        </div>
+    
+
+                        <div>
+
+                        <input class="radio" type="checkbox" name="cultura" id="cultura">
+                        <label for="cultura">Cultura e Costumes</label>
+
+                        </div>                
+
 
 
                 </section>

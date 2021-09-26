@@ -8,7 +8,7 @@
   color: var(--corTexto);
 }
 
-html{
+html {
   width: 90%;
   margin: 0 auto;
 }
@@ -27,9 +27,8 @@ PALETA DE CORES
   --corTexto: rgb(24, 20, 17);
   --cor5: rgb(34, 62, 98);
 
-
   display: grid;
-  grid-template-columns: 35% 1fr;
+  grid-template-columns: 380px 1fr;
   grid-template-rows: 300px 1fr;
   grid-template-areas:
     "header header"
@@ -66,14 +65,13 @@ h2 {
   color: var(--cor5);
 }
 
-p{
+p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: var(--corTexto);
 
   padding-bottom: 16px;
 }
-
 
 body aside {
   background-color: var(--corMenu);
@@ -91,8 +89,8 @@ body main {
   padding: 64px 32px;
 }
 
-fieldset{
-  border:1px solid var(--cor1);
+fieldset {
+  border: 1px solid var(--cor1);
   border-radius: 4px;
   padding: 32px;
   margin-bottom: 40px;
@@ -104,30 +102,40 @@ fieldset legend {
   color: var(--cor1);
 }
 
-
 label {
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
   color: var(--cor5);
 }
 
-input, select{
+.input-style {
   width: 100%;
   padding: 16px;
   margin-bottom: 16px;
 
-  border:none;
+  border: none;
   border-radius: 4px;
 }
 
 
-.idade *{
-  width: 100%;
-  
+.idade{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 
+  gap: 8px;
   font-size: 20px;
+
+  margin-bottom: 16px;
+}
+
+.interesses{
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+  font-size: 20px;
+
+  margin-bottom: 16px;
 }
 
 textarea {
@@ -135,9 +143,7 @@ textarea {
   height: 80px;
 }
 
-
-
-.intro{
+.intro {
   padding: 64px;
   color: var(--corTexto);
   line-height: 170%;
@@ -148,8 +154,7 @@ section img {
   width: 100%;
 }
 
-
-.caixaBotoes{
+.caixaBotoes {
   width: 100%;
   margin: 0 auto;
 
@@ -157,7 +162,7 @@ section img {
   gap: 24px;
 }
 
-.enviar{
+.enviar {
   width: 50%;
   padding: 16px 32px;
   background-color: var(--cor3);
@@ -167,15 +172,15 @@ section img {
   font-size: 24px;
 }
 
-.enviar:hover{
+.enviar:hover {
   background-color: var(--cor4);
 }
 
-.limpar:hover{
+.limpar:hover {
   background-color: var(--cor2);
 }
 
-.limpar{
+.limpar {
   width: 50%;
   padding: 16px 32px;
   background-color: var(--cor1);
@@ -189,6 +194,54 @@ button:hover {
   transform: scale(1.03);
 }
 
-input:hover, textarea:hover, select:hover {
+input:hover,
+textarea:hover,
+select:hover {
   transform: scale(1.03);
+}
+
+
+@media (max-width: 768px){
+
+
+  body{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px 1fr;
+    grid-template-areas:
+    "header"
+    "aside";
+
+  }
+
+  body aside{
+    width: 88vw;
+    height: fit-content;
+
+    margin: 0px auto 60px auto;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  header{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+  }
+
+  header img{
+    width: 100%;
+  }
+
+  main{
+    display: none;
+  }
+
 }
