@@ -115,10 +115,11 @@ label {
 
   border: none;
   border-radius: 4px;
+
+  background-color: white;
 }
 
-
-.idade{
+.idade {
   display: flex;
   flex-direction: column;
 
@@ -128,7 +129,7 @@ label {
   margin-bottom: 16px;
 }
 
-.interesses{
+.interesses {
   display: flex;
   flex-direction: column;
 
@@ -200,33 +201,28 @@ select:hover {
   transform: scale(1.03);
 }
 
-
-@media (max-width: 768px){
-
-
-  body{
-
+@media (max-width: 768px) {
+  body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 300px 1fr;
     grid-template-areas:
-    "header"
-    "aside";
-
+      "header"
+      "aside";
   }
 
-  body aside{
+  body aside {
     width: 88vw;
     height: fit-content;
 
     margin: 0px auto 60px auto;
   }
 
-  h1{
+  h1 {
     text-align: center;
   }
 
-  header{
+  header {
     width: 100%;
 
     display: flex;
@@ -236,12 +232,11 @@ select:hover {
     margin: 0 auto;
   }
 
-  header img{
+  header img {
     width: 100%;
   }
 
-  main{
+  main {
     display: none;
   }
-
 }
