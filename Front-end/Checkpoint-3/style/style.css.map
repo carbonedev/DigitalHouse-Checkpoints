@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "AECA,OAAO,CAAC,mHAAI",
+    "sources": [
+        "style.scss",
+        "partials/_colors.scss",
+        "partials/_typography.scss",
+        "partials/_effects.scss",
+        "partials/_buttons.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
