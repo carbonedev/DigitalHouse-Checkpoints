@@ -5,14 +5,16 @@
   padding: 4px;
 }
 
+.span-light {
+  color: #3e3f40;
+  background-color: #edf1f5;
+  padding: 4px;
+}
+
 p {
   color: #dce1e5;
   font-size: 18px;
   line-height: 170%;
-}
-
-.tw {
-  color: white-light;
 }
 
 .btn-primary-dh {
@@ -68,6 +70,10 @@ p {
   left: 0;
 }
 
+.z10 {
+  z-index: 10;
+}
+
 .parallax {
   /* The image used */
   background-image: url("https://i.pinimg.com/originals/3f/61/e5/3f61e5d6e8f02daf4b0263f61c522a37.jpg");
@@ -113,7 +119,10 @@ p {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
+  .container-main-dh h1 {
+    font-size: 36px;
+  }
   .container-main-dh p {
     display: none;
   }
@@ -125,6 +134,7 @@ body {
 
 body, html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .background {

@@ -19,12 +19,16 @@ $font-size5: 16px;
 
 }
 
+.span-light{
+
+    color: $black-light;
+    background-color: $white;
+    padding: 4px;
+
+}
+
 p{
     color: $white-dark;
     font-size: $font-size4;
     line-height: 170%;
-}
-
-.tw{
-    color: white-light;
 }
