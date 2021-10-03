@@ -1,3 +1,41 @@
 //Estilo dos botões
 
 //Principal
+.btn-primary-dh {
+  background-color: $blue;
+  border-radius: $border-radius;
+  border: none;
+  box-shadow: $box-shadow;
+  padding: 12px 40px;
+
+  font-family: $font-title;
+  font-size: $font-size4;
+
+  &:hover {
+    background-color: $blue-light;
+    transform: scale(1.03);
+    border: none;
+  }
+}
+
+.btn-secondary-dh {
+  
+    background-color: $black-transparent;
+    border-radius: $border-radius;
+    border: 1px solid $blue;
+    // box-shadow: $box-shadow;
+    padding: 12px 40px;
+
+    font-family: $font-title;
+    font-size: $font-size4;
+    color: $blue;
+
+    &:hover {
+        background-color: $blue-light;
+        color: $white;
+        box-shadow: $box-shadow;
+        transform: scale(1.03);
+        border: none;
+    }
+
+}

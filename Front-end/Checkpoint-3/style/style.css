@@ -1,2 +1,137 @@
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&family=Source+Sans+Pro:wght@400;600&display=swap");
+.span {
+  color: #f7f9fa;
+  background-color: #1E4ECA;
+  padding: 4px;
+}
+
+p {
+  color: #dce1e5;
+  font-size: 18px;
+  line-height: 170%;
+}
+
+.tw {
+  color: white-light;
+}
+
+.btn-primary-dh {
+  background-color: #1E4ECA;
+  border-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 0px 51px 80px rgba(30, 78, 202, 0.08), 0px 15.375px 24.1177px rgba(30, 78, 202, 0.0521271), 0px 6.38599px 10.0172px rgba(30, 78, 202, 0.04), 0px 2.30969px 3.62304px rgba(30, 78, 202, 0.0278729);
+          box-shadow: 0px 51px 80px rgba(30, 78, 202, 0.08), 0px 15.375px 24.1177px rgba(30, 78, 202, 0.0521271), 0px 6.38599px 10.0172px rgba(30, 78, 202, 0.04), 0px 2.30969px 3.62304px rgba(30, 78, 202, 0.0278729);
+  padding: 12px 40px;
+  font-family: "Mukta";
+  font-size: 18px;
+}
+
+.btn-primary-dh:hover {
+  background-color: #4171f0;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  border: none;
+}
+
+.btn-secondary-dh {
+  background-color: rgba(24, 25, 26, 0.05);
+  border-radius: 4px;
+  border: 1px solid #1E4ECA;
+  padding: 12px 40px;
+  font-family: "Mukta";
+  font-size: 18px;
+  color: #1E4ECA;
+}
+
+.btn-secondary-dh:hover {
+  background-color: #4171f0;
+  color: #edf1f5;
+  -webkit-box-shadow: 0px 51px 80px rgba(30, 78, 202, 0.08), 0px 15.375px 24.1177px rgba(30, 78, 202, 0.0521271), 0px 6.38599px 10.0172px rgba(30, 78, 202, 0.04), 0px 2.30969px 3.62304px rgba(30, 78, 202, 0.0278729);
+          box-shadow: 0px 51px 80px rgba(30, 78, 202, 0.08), 0px 15.375px 24.1177px rgba(30, 78, 202, 0.0521271), 0px 6.38599px 10.0172px rgba(30, 78, 202, 0.04), 0px 2.30969px 3.62304px rgba(30, 78, 202, 0.0278729);
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  border: none;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.bg-dark-dh {
+  background-color: #242425;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/originals/3f/61/e5/3f61e5d6e8f02daf4b0263f61c522a37.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-main-dh {
+  width: 100%;
+  position: relative;
+  top: 25%;
+  left: 15%;
+}
+
+.container-main-dh h1 {
+  font-family: "Mukta";
+  color: #edf1f5;
+  font-size: 48px;
+}
+
+.container-main-dh p {
+  width: 40%;
+  font-family: "Source Sans Pro";
+  color: #dce1e5;
+  font-size: 18px;
+}
+
+.radial {
+  width: 100%;
+  height: 500px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, rgba(36, 36, 37, 0.9)), to(rgba(36, 36, 37, 0.5)));
+  background: linear-gradient(90deg, rgba(36, 36, 37, 0.9) 15%, rgba(36, 36, 37, 0.5) 100%);
+}
+
+@media (max-width: 1024px) {
+  .container-main-dh p {
+    width: 75%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container-main-dh p {
+    display: none;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body, html {
+  height: 100%;
+}
+
+.background {
+  background-color: #242425;
+}
+
+.bg-light-dh {
+  background-color: #3e3f40;
+}
 /*# sourceMappingURL=style.css.map */

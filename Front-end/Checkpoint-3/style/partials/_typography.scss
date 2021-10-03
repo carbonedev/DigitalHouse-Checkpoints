@@ -1,3 +1,30 @@
 //Importação das tipografias
 @import url("https://fonts.googleapis.com/css2?family=Mukta:wght@600;800&family=Source+Sans+Pro:wght@400;600&display=swap");
 
+$font-title: "Mukta";
+$font-text: "Source Sans Pro";
+
+$font-size1: 48px;
+$font-size2: 36px;
+$font-size3: 24px;
+$font-size4: 18px;
+$font-size5: 16px;
+
+
+.span{
+
+    color: $white-light;
+    background-color: $blue;
+    padding: 4px;
+
+}
+
+p{
+    color: $white-dark;
+    font-size: $font-size4;
+    line-height: 170%;
+}
+
+.tw{
+    color: white-light;
+}

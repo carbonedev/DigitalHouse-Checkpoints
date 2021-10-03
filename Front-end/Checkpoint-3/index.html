@@ -6,17 +6,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style/style.css">
 
     <title>CTD Marvel</title>
 </head>
-<body>
+<body class="background">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-dh px-5 sticky">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/logo-marvel.png" height="40px" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              
+            </ul>
+            <div class="d-flex gap-4">
+              <button type="button" class="btn btn-secondary btn-secondary-dh" data-bs-toggle="modal" data-bs-target="#loginModal" data-bs-whatever="@mdo">Fazer Login</button>
+
+              <button type="button" class="btn btn-primary btn-primary-dh" data-bs-toggle="modal" data-bs-target="#criarContaModal" data-bs-whatever="@mdo">Criar conta</button>
+            </div>
+          </div>
+        </div>
+      </nav>
     
+      
 
 
+
+      <!-- BANNER -->
+      <main class="parallax">
+        <div class="radial">
+
+            <div class="container-main-dh">
+
+                <h1>A Sequência Correta</h1>
+    
+                <p>
+                    Muita gente assiste aos filmes da Marvel e fica perdido em relação à história e sua sequência.</p>
+    
+                <p>
+                    O lançamento dos filmes da Marvel não tem a mesma sequência cronológica da história, então para você que busca assistir os filmes acompanhando a sequência cronológica da história, clique no botão abaixo e conheça a <span class="span">sequência correta.</span>
+                </p>
+    
+                <button class="btn btn-primary btn-primary-dh mt-4">Ver a Sequência correta</button>
+                
+            </div>
+
+        </div>
+      </main>
+
+
+
+      <div class="container mt-5">
+       
+        <div class="row">
+            <dig class="col">
+                <h1 class="text-white mb-4">Filmes da Marvel</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique, iusto dolores quaerat cum distinctio quas quo porro eaque ab, deleniti saepe laborum neque in inventore. Quidem dolorem architecto illum placeat?</p>
+            </dig>
+        </div>
+
+        <div class="row align-items-center mt-5">
+
+          <div class="col">           
+            <div class="card bg-light-dh">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary btn-primary-dh">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">           
+            <div class="card bg-light-dh">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title text-white">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary btn-primary-dh">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+          
+
+        </div>
+      </div>
+
+</div>
+
+
+
+
+      
+     
+
+      <!-- MODAL LOGIN -->
+      <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Faça o seu Login</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Usuário:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Senha:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-secondary-dh" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary btn-primary-dh">Fazer Login</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODAL CRIAR CONTA -->
+      <div class="modal fade" id="criarContaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Crie a sua conta</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Nome:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Sobrenome:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Nome de Usuário</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Senha:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Repita sua senha:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                </div>
+
+
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary btn-secondary-dh" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary btn-primary-dh">Cadastrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="js/svg-inject.min.js"></script>
 </body>
 </html>
